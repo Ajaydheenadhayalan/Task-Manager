@@ -6,8 +6,6 @@
 ```
 cd backend
 npm install
-cp .env.example .env
-# edit .env to set JWT_SECRET
 npm run dev
 ```
 
@@ -20,9 +18,3 @@ npm run dev
 
 Backend default: http://localhost:5001
 Frontend (Vite): http://localhost:5173
-
-Make first user admin:
-```
-cd backend
-node promote.js 1
-```
